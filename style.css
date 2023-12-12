@@ -8,6 +8,10 @@ h2 {
   color: brown;
 }
 
+h3 {
+   color: blue;
+}
+
 ul {
   list-style: number;
 }
