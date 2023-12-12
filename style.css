@@ -1,7 +1,27 @@
+Html{
+  background-color: antiquewhite;
+  animation-play-state: running;
+  animation-duration: 80ms;
+  animation-name: initial;
+}
+
+body {
+  animation: changeBackground 10s infinite; /* Animation duration set to 10 seconds */
+}
+
+/* Define keyframes for the background color change */
+@keyframes changeBackground {
+  0% { background-color: #f39c88; } /* Start color */
+  25% { background-color: #79ff92; } /* Change color at 25% */
+  50% { background-color: #8b72fb; } /* Change color at 50% */
+  75% { background-color: #8acafc; } /* Change color at 75% */
+  100% { background-color: #fc91f9; } /* End color */
+}
+
 h1 {
   color: blue;
   font-family:pacifico;
-  font-weight: 400;
+  font-weight: 800;
 }
 
 h2 {
