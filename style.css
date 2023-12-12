@@ -1,1 +1,15 @@
+h1 {
+  color: blue;
+  font-family:pacifico;
+  font-weight: 400;
+}
+
+h2 {
+  color: brown;
+}
+
+ul {
+  list-style: number;
+}
+/* Write your CSS below, don't change the rules above. */
 
